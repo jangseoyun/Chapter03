@@ -31,6 +31,7 @@ public class PointApp {
 		System.out.println("#equals()");//모 클래스가 있기 때문에 나옴 자클래스에는 없음 
 		System.out.println(p00.equals(p02)); //(2,3)(5,9) false
 		System.out.println(p00.equals(p01)); //(2,3)(2,3) false 값을 의미하는 것이 아니다 / 클래스를 의미하는 것 
+		System.out.println(p02.equals(p04)); // true
 		System.out.println(p00==p01); //false 주소 값을 비교하는 것 
 		System.out.println(p02==p04); //true 주소가 같은 메모리를 가지고 있는것 
 		System.out.println("========================");
